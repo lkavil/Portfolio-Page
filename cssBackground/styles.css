@@ -1,0 +1,49 @@
+
+body {
+	font-family: Arial;
+	color:#333;
+}
+
+h1 {
+	margin-bottom: 100px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+div {
+	margin: 0 auto 100px auto;
+	width: 960px;
+	height: 200px;
+	background: #ccc;
+}
+#box1{
+	background: rgb(7,44,67);
+background: linear-gradient(176deg, rgba(7,44,67,1) 0%, rgba(12,81,122,1) 100%);
+}
+#box2{
+	background: linear-gradient(45deg, #06507c 0%,#07507d 34%,#0f5980 37%,#135982 37%,#175d82 38%,#1c5f85 39%,#24688a 41%,#337090 43%,#3e7d96 46%,#417d99 46%,#417d99 46%,#46809a 47%,#478199 47%,#5b90a4 51%,#5c91a3 52%,#5f92a4 52%,#5c91a3 52%,#5f94a6 53%,#6799a8 55%,#6999a7 59%,#64929e 62%,#578390 66%,#426e7d 70%,#426e7d 70%,#3c6877 71%,#355e70 73%,#224b5e 76%,#10374e 80%,#093046 82%,#072d43 84%,#082b45 84%,#082b45 100%);
+}
+
+#box3 {
+	width: 400px;
+	height: 400px;
+	background: rgb(235,224,184);
+background: radial-gradient(circle, rgba(235,224,184,1) 0%, rgba(238,153,35,1) 100%);
+	
+}
+#box4{
+	background: rgb(1,175,236);
+background: radial-gradient(circle, rgba(1,175,236,1) 75%, rgba(1,175,236,1) 100%);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+#box5{
+	background: rgb(1,175,236);
+background: radial-gradient(circle, rgba(1,175,236,1) 75%, rgba(1,175,236,1) 100%);
+box-shadow: inset 0px 2px 17px 0px rgba(0,0,0,0.75);
+}
+#box6{
+	background: #e8e4d9;
+	background-image: url("images/wov.png");
+}
