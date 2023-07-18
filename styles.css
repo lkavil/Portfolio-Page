@@ -1,0 +1,173 @@
+
+header{
+    justify-content: center;
+    text-align: center;
+    font-family: Bungee Shade;
+	margin-bottom: .5em;
+	font-weight: 100;
+    font-size: 48px;
+    color: white;
+    line-height: 2em;
+    
+}
+
+
+html { 
+    background: url("blues.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  h2{
+    justify-content: center;
+    text-align: center;
+    font-family: Bungee Shade;
+	margin-bottom: .5em;
+	font-weight: 100;
+    font-size: 48px;
+    line-height: 2em;
+   
+  }
+  h3{
+    font-size: 100%;
+    line-height: 2;
+    padding-left: 9px;
+    padding-right: 21px;
+    min-width: 145px;
+    justify-content: center;
+    text-align: center;
+}
+.projects{
+    
+    
+    
+    background: lightblue;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px ;
+    margin:  0px 200px;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+   align-items: center;
+   justify-content: center;
+   
+    
+}
+
+.box {
+    display: flex;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: white;
+    width: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    font-family: Open Sans;
+	margin-bottom: .5em;
+	font-weight: 100;
+    font-size: 20px;
+    line-height: 2em;
+    
+    
+    
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+.exercises{
+    grid-area: exercises;
+    background: darkgray;
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px ;
+    margin:  auto;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+   
+    
+}
+.me{
+   
+    background: cadetblue;
+    grid-area: me;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px ;
+    margin:  auto;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+    list-style-type: none;
+    
+}
+img{
+    box-shadow: 3px 3px 5px ;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media only screen and (min-width: 600px) {
+    
+        .projects{
+            background: lightblue;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 5px ;
+            margin:  0px 200px;
+            line-height: 1.7em;
+            margin-bottom: 20px;
+           align-items: center;
+           justify-content: center;
+        }
+        .exercises{
+            background:darkgray;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 5px ;
+            margin:  0px 200px;
+            line-height: 1.7em;
+            margin-bottom: 20px;
+           align-items: center; 
+           
+        }
+        .me{
+            background: cadetblue;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 5px ;
+            margin:  0px 200px;
+            line-height: 1.7em;
+            margin-bottom: 20px;
+           align-items: center;
+        }
+        
+        h2{
+            justify-content: center;
+            text-align: center;
+            font-family: Bungee Shade;
+            margin-bottom: .5em;
+            font-weight: 100;
+            font-size: 48px;
+            }
+        img{
+            
+            padding: 10px;
+            border-radius: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            }
+        
+}
