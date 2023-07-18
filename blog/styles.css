@@ -1,0 +1,152 @@
+
+header{
+    justify-content: center;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+	margin-bottom: .5em;
+	font-weight: 800;
+    
+    color:#7B3F00;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+	margin-bottom: .5em;
+	font-weight: 800;
+    
+    color:#7B3F00;
+}
+
+html { 
+  
+    background: url("images/garden.png") no-repeat center center fixed; 
+    
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .box{
+    display: flex;
+    padding: 20px;
+    border: 2px solid darkgreen;
+    background-color: lightgreen;
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center; 
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    background: #2D9231;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px ;
+    margin:  auto;
+     gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+article {
+    background-color: #2D9231;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px ;
+    margin:  auto;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+   align-items: center;
+  
+   
+   font-family: 'Crimson Text', serif;
+	
+	color: rgb(0, 0, 0);
+	padding-top: 9px;
+	padding-bottom: 30px;
+	font-size: 18px;
+}
+
+
+
+img{
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+   
+   align-items: center;
+    
+}
+
+time {
+    
+    align-items: bottom;
+    font-size: 12px;
+}
+.webdev{
+    display: flex;
+    background-color: #2D9231;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px ;
+    margin:  auto;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+   
+   height: 500px;
+}
+
+@media only screen and (min-width: 600px) {
+    header{
+        justify-content: center;
+        text-align: center;
+    }
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        background: #2D9231;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 5px ;
+        margin:  auto;
+         gap: auto;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        
+        
+        
+        
+    }
+    article {
+        background-color: #2D9231;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 5px ;
+        margin:  0px 200px;
+        line-height: 1.7em;
+        margin-bottom: 20px;
+       align-items: center;
+    }
+    
+    time {
+        
+        align-items: bottom;
+        font-size: 12px;
+    }
+    
+    
+}
