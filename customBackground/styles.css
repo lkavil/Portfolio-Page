@@ -1,0 +1,16 @@
+body{
+    background-image:  url("desk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+article{
+    width: 800px;
+    margin:auto;
+    background-color: #BA8C63 ;
+}
+body {
+    line-height: 1.7em;
+    
+    color:black;
+}
